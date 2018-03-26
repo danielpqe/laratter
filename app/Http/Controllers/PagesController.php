@@ -30,7 +30,6 @@ class PagesController extends Controller
                 'image' => 'http://lorempixel.com/600/338?4',
             ],
         ];
-
         return view('welcome', [
             'messages' => $messages,
         ]);
